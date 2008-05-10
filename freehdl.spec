@@ -1,5 +1,5 @@
 %define name 	freehdl
-%define version 0.0.4
+%define version 0.0.6
 %define release 1
 
 Summary: 	Free HDL simulator
@@ -39,4 +39,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}
 %{_infodir}/fire.info.lzma
 %{_mandir}/man?/*
-
