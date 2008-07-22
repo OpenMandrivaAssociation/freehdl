@@ -11,6 +11,7 @@ Group: 		Sciences/Other
 URL: 		http://freehdl.seul.org/
 Source0: 	%{name}-%{version}.tar.gz
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-root
+BuildRequires:	bison, flex, libtool
 
 %description
 A project to develop a free, open source, GPL'ed VHDL simulator for Linux.
