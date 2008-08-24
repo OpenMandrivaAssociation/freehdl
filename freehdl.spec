@@ -1,3 +1,5 @@
+%define _disable_ld_no_undefined 1
+
 %define name 	freehdl
 %define version 0.0.6
 %define release 1
