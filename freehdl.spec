@@ -1,7 +1,7 @@
 %define _disable_ld_no_undefined 1
 
 %define name 	freehdl
-%define version 0.0.6
+%define version 0.0.7
 %define release 1
 
 Summary: 	Free HDL simulator
@@ -20,6 +20,7 @@ A project to develop a free, open source, GPL'ed VHDL simulator for Linux.
 
 %prep
 %setup -q
+autoreconf -i -f
 
 %build
 %configure --with-gnu-ld --with-pic
