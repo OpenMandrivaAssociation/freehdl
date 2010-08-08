@@ -2,7 +2,7 @@
 
 %define name 	freehdl
 %define version 0.0.7
-%define release 1
+%define release 2
 
 Summary: 	Free HDL simulator
 Name: 		%{name}
