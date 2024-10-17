@@ -10,7 +10,7 @@ Version:	0.0.7
 Release:	4
 License:	GPL
 Group:		Sciences/Other
-URL:		http://freehdl.seul.org/
+URL:		https://freehdl.seul.org/
 Source0:	%{name}-%{version}.tar.gz
 BuildRequires:	bison
 BuildRequires:	flex
