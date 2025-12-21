@@ -12,6 +12,11 @@ License:	GPL
 Group:		Sciences/Other
 URL:		https://freehdl.seul.org/
 Source0:	%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	bison
 BuildRequires:	flex
 BuildRequires:	libtool
